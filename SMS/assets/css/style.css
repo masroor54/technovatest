@@ -1,0 +1,96 @@
+html,body{
+	font-family: sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#LoginForm{
+	background: #0d6efd;
+	padding: 10px 10px;
+	width: 30%;
+	margin: 70px auto;
+	border-radius: 14px 14px 14px 14px;
+}
+#LoginForm h1{
+	text-align: center;
+	color: white;
+}
+#FormInputs{
+	color: white;
+	font-weight: bolder;
+}
+#FormInputs input{
+	width: 90%;
+	padding: 5px 2px;
+	margin: 4px 5px;
+}
+#FormButton button{
+	margin: 30px 0px;
+	background: white;
+	color: #0d6efd;
+	border: 0px;
+	padding: 5px 5px;
+	font-weight: bolder;
+	width: 100%;
+}
+#FormButton button:hover{
+	background: #0d6efd;
+	color: white;
+	border: 2px white solid;
+}
+
+/*DASHBOARD(Teacher)*/
+#mainheader{
+	width: 100%;
+	background: #0d6efd;
+}
+#logo{
+	text-align: center;
+	width: 30%;
+	float: left;
+	color: white;
+}
+#navbar{
+	text-align: center;
+	width: 70%;
+	float: right;
+}
+#navbar a,li{
+	text-decoration: none;
+	color: white;
+	display: inline-flex;
+	margin: 10px 5px;
+}
+
+footer{
+	width: 100%;
+	background: #0d6efd;
+	color: white;
+	text-align: center;
+}
+main{
+	min-height: 79vh;
+}
+#cards{
+	width: 98%;
+	margin: 10px auto;
+	display: inline-flex;
+}
+
+#card{
+	background: #0d6efd;
+	width: 33.3%;
+	margin: 0px 10px;
+	border-radius: 14px 14px 14px 14px;
+	text-align: center;
+	color: white;
+}
+table{
+	width: 100%;
+	text-align: center;
+}
